@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col  items-center">
+    <main className="flex flex-col items-center">
       <section className="flex flex-col items-center py-3 px-6">
         <h1 className="text-lg font-bold">Nassim Saboundji</h1>
         <p className="italic">FullStack Software Developer specialized in JavaScript/TypeScript based Next.js/React web app development</p>
@@ -32,7 +32,7 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className="flex flex-col items-start p-3 ">
+        <section className="flex flex-col items-start p-3">
           <h2 className="text-lg font-bold">
             Skills
           </h2>
@@ -46,6 +46,14 @@ export default function Home() {
         </section>
         <section className="flex flex-col items-start p-3">
           <h2 className="text-lg font-bold">Projects</h2>
+          <div className="flex flex-row flex-wrap">
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">YouTube Playlist Web app</a>
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">Hacker News Client</a>
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">Video downloader</a>
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">Link Bento </a>
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">Project </a>
+            <a className="bg-indigo-500 text-white p-12 m-2 rounded-lg" href="">Project </a>
+          </div>
         </section>
         <section className="flex flex-col items-start p-3">
           <h2 className="text-lg font-bold">Education</h2>
