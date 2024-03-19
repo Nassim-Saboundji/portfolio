@@ -4,7 +4,7 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <section className="flex flex-col items-center py-3 px-6">
         <h1 className="text-lg font-bold">Nassim Saboundji</h1>
-        <p className="italic">FullStack Software Developer specialized in JavaScript/TypeScript based Next.js/React web app development</p>
+        <p className="italic">Software Developer specialized in JavaScript/TypeScript based Next.js/React web app development</p>
       </section>
       <div className="px-6">
         <section className="flex flex-col items-start p-3">
@@ -21,7 +21,7 @@ export default function Home() {
 
           <h3 className="font-bold">Replit - Role: Software Developer, Product  (March 2022 - December 2022)</h3>
           <ul className="list-disc px-8 py-4">
-            <li>Proposed, designed and participated in the implementation of Replit’s following feature which increased user retention by 50% and reduced churn. <a href="" target="_blank" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Co-authored official blog post presenting the feature.</a>
+            <li>Proposed, designed and participated in the implementation of Replit’s following feature which increased user retention by 50% and reduced churn. <a href="https://blog.replit.com/replit-famous" target="_blank" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Co-authored official blog post presenting the feature.</a>
             </li>
             <li>Revamped publishing flow frontend enabling users to publish templates which led to an increase in Replit’s power as a platform.</li>
             <li>Implemented company profiles feature which led to 20 companies (including Twitter, Stripe, Hugging Face and many others) doing DevRel on Replit and proposing 40+ high quality templates on our platform.
